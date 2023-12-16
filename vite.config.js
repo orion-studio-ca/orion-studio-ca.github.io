@@ -6,11 +6,13 @@ import react from '@vitejs/plugin-react'
   plugins: [react()],
 })*/
 
-export default defineConfig({
+/*export default defineConfig({
   plugins: [
     react(),
   ],
   build: {
+    outDir: "dist",
+    base: '/',
     rollupOptions: {
       external: ["react", "react-router", "react-router-dom"],
       output: {
@@ -20,4 +22,10 @@ export default defineConfig({
       },
     },
   },
+});*/
+
+export default defineConfig({
+  plugins: [
+    react(),
+  ]
 });
