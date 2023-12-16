@@ -25,12 +25,12 @@ const Navbar = props => {
 
       <ul className="z-10 list-none touch-none mx-[2rem] mt-[1rem] p-0 overflow-hidden fixed w-[calc(100vw-4rem)] top-0 rounded-3xl py-2 backdrop-blur-[6px] bg-gradient-to-t from-slate-50/[.05] to-slate-50/[.1] border-white/[.1] border-[1px] shadow-lg">
         <li className="float-right block md:hidden">
-          <img src={menuLogo} className="w-10 block mr-3 align-middle mb-1 pt-1 cursor-pointer" alt="Menu Icon" onClick={() => toggleMenu()} />
+          <img src={menuLogo} className="w-10 block mr-3 align-middle mb-1 pt-1 cursor-pointer active:opacity-80 transition-opacity" alt="Menu Icon" onClick={() => toggleMenu()} />
         </li>
         {data.pages.map((page, i) => 
           <li key={i} className={liCss}><NavLink to={page.url} className={({isActive}) => isActive ? aCssActive : aCss}>{page.name}</NavLink></li>
         ).reverse()}
-        <Link to="/"><img src={orionTextLogo} className="h-6 block ml-7 mt-2 float-left pt-1" alt="Orion Studios" /></Link>
+        <Link to="/"><img src={orionTextLogo} className="h-6 block ml-7 mt-2 float-left pt-1 active:opacity-80 transition-opacity" alt="Orion Studios" /></Link>
       </ul>
       <MenuItem pageNum={pageNum} toggled={menu} />
       
