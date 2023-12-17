@@ -70,7 +70,7 @@ const gamesList = [
     {
         name: "BlastFort",
         description: "A free-to-play multiplayer side-scrolling shooter",
-        img: "display_bf.png",
+        img: "display_bf.webp",
         url: "blastfort",
         platforms: [{
                 num: 0, //steam
@@ -101,17 +101,17 @@ const gamesList = [
             }
         ],
         screenshots: [
-            "gallery/bf_1.png",
-            "gallery/bf_2.png",
-            "gallery/bf_3.png",
-            "gallery/bf_4.png",
-            "gallery/bf_5.png",
+            "gallery/bf_1.jpg",
+            "gallery/bf_2.jpg",
+            "gallery/bf_3.jpg",
+            "gallery/bf_4.jpg",
+            "gallery/bf_5.jpg",
         ]
     },
     {
         name: "Overthrown",
         description: "You were the rightful ruler of a kingdom until you were banished to the Unbounding Cave. Escape and take back the throne.",
-        img: "display_overthrown.png",
+        img: "display_overthrown.webp",
         url: "overthrown",
         platforms: [{
             num: 4, //amazon
@@ -121,15 +121,15 @@ const gamesList = [
             url: "https://orion-studios.itch.io/overthrown"
         }],
         screenshots: [
-            "gallery/overthrown_1.png",
-            "gallery/overthrown_2.png",
-            "gallery/overthrown_3.png",
+            "gallery/overthrown_1.jpg",
+            "gallery/overthrown_2.jpg",
+            "gallery/overthrown_3.jpg",
         ]
     },
     {
         name: "Holy Roller",
         description: "A stupid game made by a stupid person.",
-        img: "display_holyroller.png",
+        img: "display_holyroller.webp",
         url: "holy-roller",
         platforms: [{
             num: 2, //google play
@@ -145,15 +145,15 @@ const gamesList = [
             url: "https://orion-studios.itch.io/holyroller"
         }],
         screenshots: [
-            "gallery/holy-roller_1.png",
-            "gallery/holy-roller_2.png",
-            "gallery/holy-roller_3.png",
+            "gallery/holy-roller_1.jpg",
+            "gallery/holy-roller_2.jpg",
+            "gallery/holy-roller_3.jpg",
         ]
     },
     {
         name: "Wordt",
         description: "A word-guessing puzzle game, where you get 6 tries to correctly guess the 5 letter word",
-        img: "display_wordt.png",
+        img: "display_wordt.webp",
         url: "wordt",
         platforms: [{
             num: 2, //google play
@@ -169,44 +169,44 @@ const gamesList = [
             url: "https://orion-studios.itch.io/wordt"
         }],
         screenshots: [
-            "gallery/wordt_1.png",
-            "gallery/wordt_2.png",
-            "gallery/wordt_3.png",
+            "gallery/wordt_1.jpg",
+            "gallery/wordt_2.jpg",
+            "gallery/wordt_3.jpg",
         ]
     },
     {
         name: "Tulaan",
         description: "Conquer Eurasia and rule the world in the late Medieval Era as the Mongols, Nizaris, Seljuqs, Abbasids, or Crusaders.",
-        img: "display_tulaan.png",
+        img: "display_tulaan.webp",
         url: "tulaan",
         platforms: [{
             num: 5, //itch.io
             url: "https://orion-studios.itch.io/tulaan"
         }],
         screenshots: [
-            "gallery/tulaan_1.png",
-            "gallery/tulaan_2.png",
+            "gallery/tulaan_1.jpg",
+            "gallery/tulaan_2.jpg",
         ]
     },
     {
         name: "The Main in The Chair",
         description: "Give directions to your field agents to infiltrate enemies. Ensure mission success.",
-        img: "display_tmic.png",
+        img: "display_tmic.webp",
         url: "tmic",
         platforms: [{
             num: 5, //itch.io
             url: "https://orion-studios.itch.io/micf"
         }],
         screenshots: [
-            "gallery/tmic_1.png",
-            "gallery/tmic_2.png",
-            "gallery/tmic_3.png",
+            "gallery/tmic_1.jpg",
+            "gallery/tmic_2.jpg",
+            "gallery/tmic_3.jpg",
         ]
     },
     {
         name: "The Twins",
         description: "In the midst of a war, two brothers with special abilities to join together into one or to share resources are recruited to get vital intel from the enemy.",
-        img: "display_twins.png",
+        img: "display_twins.webp",
         url: "thetwins",
         platforms: [{
             num: 5, //itch.io
@@ -214,40 +214,40 @@ const gamesList = [
         }],
         screenshots: [
             "gallery/thetwins_1.gif",
-            "gallery/thetwins_2.png",
-            "gallery/thetwins_3.png",
+            "gallery/thetwins_2.jpg",
+            "gallery/thetwins_3.jpg",
         ]
     },
     {
         name: "SideQuest",
         description: "A great hero and adventure travels across the kingdom in hopes of completing his ultimate quest... ...but that's not you.",
-        img: "display_sidequest.png",
+        img: "display_sidequest.webp",
         url: "sidequest",
         platforms: [{
             num: 5, //itch.io
             url: "https://orion-studios.itch.io/sidequest"
         }],
         screenshots: [
-            "gallery/sidequest_1.png",
-            "gallery/sidequest_2.png",
-            "gallery/sidequest_3.png",
-            "gallery/sidequest_4.png",
-            "gallery/sidequest_5.png",
+            "gallery/sidequest_1.jpg",
+            "gallery/sidequest_2.jpg",
+            "gallery/sidequest_3.jpg",
+            "gallery/sidequest_4.jpg",
+            "gallery/sidequest_5.jpg",
         ]
     },
     {
         name: "The Boxy Boys",
         description: "A simple endless top-down shooter.",
-        img: "display_boxyboys.png",
+        img: "display_boxyboys.webp",
         url: "theboxyboys",
         platforms: [{
             num: 5, //itch.io
             url: "https://orion-studios.itch.io/boxy-boys"
         }],
         screenshots: [
-            "gallery/boxyboys_1.png",
-            "gallery/boxyboys_2.png",
-            "gallery/boxyboys_3.png",
+            "gallery/boxyboys_1.jpg",
+            "gallery/boxyboys_2.jpg",
+            "gallery/boxyboys_3.jpg",
         ]
     },
 ]
@@ -255,36 +255,36 @@ const gamesList = [
 const platformList = [
     {
         name: "Steam",
-        img: "steam.png",
+        img: "steam.webp",
         url: "https://store.steampowered.com/developer/OrionStudios"
     },
     {
         name: "Apple App Store",
         dim: "the Apple App Store",
-        img: "apple.png",
+        img: "apple.webp",
         url: ""
     },
     {
         name: "Google Play",
         dim: "the Google Play Store",
-        img: "google.png",
+        img: "google.webp",
         url: "https://play.google.com/store/apps/dev?id=5210834262846876120"
     },
     {
         name: "Xbox",
         dim: "the Microsoft Store",
-        img: "xbox.png",
+        img: "xbox.webp",
         url: ""
     },
     {
         name: "Amazon",
         dim: "the Amazon Appstore",
-        img: "amazon.png",
+        img: "amazon.webp",
         url: "https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOrion+Studios&search-type=ss"
     },
     {
         name: "Itch.io",
-        img: "itch.png",
+        img: "itch.webp",
         url: "https://orion-studios.itch.io/"
     },
 ]
@@ -292,32 +292,32 @@ const platformList = [
 const socials = [
     {
         name: "Facebook",
-        img: "facebook.png",
+        img: "facebook.webp",
         url: "https://fb.me/orionstudiosgames"
     },
     {
         name: "Instagram",
-        img: "instagram.png",
+        img: "instagram.webp",
         url: "https://www.instagram.com/orionstudiogame/"
     },
     {
         name: "LinkedIn",
-        img: "linkedin.png",
+        img: "linkedin.webp",
         url: "https://www.linkedin.com/company/75066985/"
     },
     {
         name: "YouTube",
-        img: "youtube.png",
+        img: "youtube.webp",
         url: "https://www.youtube.com/channel/UCXJ3v5UUFgndywQ9752yEDA"
     },
     {
         name: "Twitter",
-        img: "twitter.png",
+        img: "twitter.webp",
         url: "https://twitter.com/StudioOrionGame"
     },
     {
         name: "Email",
-        img: "email.png",
+        img: "email.webp",
         url: "mailto:orion.studios.games@gmail.com",
         address: "orion.studios.games@gmail.com"
     },

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import menuLogo from '/menu.svg'
-import orionTextLogo from '/oriontext.png'
+import orionTextLogo from '/oriontext.webp'
 import { Link, Outlet, NavLink } from 'react-router-dom'
 import Footer from './Footer.jsx'
 import ScrollToTop from './ScrollToTop.jsx'
@@ -22,6 +22,7 @@ const Navbar = props => {
     return(
       <>
       <ScrollToTop reset={() => setMenu(false)} />
+      <h1 className="hidden" >Orion Studios Interactive</h1>
 
       <ul className="z-10 list-none touch-none mx-[2rem] mt-[1rem] p-0 overflow-hidden fixed w-[calc(100vw-4rem)] top-0 rounded-3xl py-2 backdrop-blur-[6px] bg-gradient-to-t from-slate-50/[.05] to-slate-50/[.1] border-white/[.1] border-[1px] shadow-lg">
         <li className="float-right block md:hidden">

@@ -1,6 +1,5 @@
 import '../App.css'
 import {useParams} from 'react-router-dom'
-import {useRef, useState, useEffect} from 'react'
 import data from '../data'
 import Button from './Button'
 import Error from '../Error'
@@ -18,7 +17,7 @@ const ListPlatforms = (props) => {
   )
 }
 
-const GameInfo = (props) => {
+const GameInfo = () => {
     const {gameId} = useParams()
 
     const curGame = data.gamesList.find((game) => game.url === gameId)
@@ -35,7 +34,7 @@ const GameInfo = (props) => {
         <div className="flex justify-center px-[1rem]" >
           <div className="mt-[5rem] w-[50rem] max-w-[calc(100%-2rem)] bg-gradient-to-t from-blue-900/[.2] to-blue-800/[.1] rounded-2xl border-white/[.1] border-[1px] shadow-xl">
             <Carousel autoSlide={true} >
-              {[curGame.img, ...curGame.screenshots].map((image, i) => <img src={image} key={i} className="w-full" />)}
+              {[curGame.img, ...curGame.screenshots].map((image, i) => <img src={image} alt={`Screenshot ${i+1}`} key={i} className="w-full" />)}
             </Carousel>
             <ListPlatforms curGame={curGame} />
 

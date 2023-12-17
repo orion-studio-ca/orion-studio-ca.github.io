@@ -10,7 +10,7 @@ const Message = (props) => {
   return (
     <>
       <div className="w-full overflow-hidden pt-[2rem] pb-[6rem]">
-        <Box title={title} logo="/storeicons/info.png">
+        <Box title={title} logo="/storeicons/info.webp">
           {data.servedMessages[num].map((msg, i) => <p key={i} className={pStyle}>{msg}</p>)}
         </Box>
       </div>
