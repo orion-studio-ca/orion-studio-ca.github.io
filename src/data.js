@@ -318,8 +318,8 @@ const socials = [
     {
         name: "Email",
         img: "email.webp",
-        url: "mailto:orion.studios.games@gmail.com",
-        address: "orion.studios.games@gmail.com"
+        url: "mailto:contact@orionstudio.ca",
+        address: "contact@orionstudio.ca"
     },
 ]
 
