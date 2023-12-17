@@ -5,7 +5,7 @@ import Button from './components/Button'
 const Publishing = () => {
     return(<>
       <div className="w-full overflow-hidden">
-        <h2 className="text-white text-center mt-[12rem] text-5xl">About</h2>
+        <h2 className="text-white text-center mt-[12rem] text-5xl">Publishing Services</h2>
         
         <div className="w-full overflow-hidden" >
         <Box title="Publishing Services" logo="/storeicons/paint.webp">
