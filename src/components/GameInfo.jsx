@@ -40,7 +40,7 @@ const GameInfo = () => {
 
             <h3 className="text-white px-[1rem] text-3xl sm:text-4xl font-bold" >{curGame.name}</h3>
             
-            <p className="h-[5rem] px-[1rem] text-white font-light leading-4 pt-[1rem]" >{curGame.description}</p>
+            <p className="px-[1rem] text-white font-light leading-4 pt-[1rem] mb-5" >{curGame.full || curGame.description}</p>
             <h3 className="text-white px-[1rem] mb-[1rem] text-2xl sm:text-3xl font-semibold" >Download links</h3>
             {curGame.platforms.filter(platform => (!platform.info)).map((platform, i) => (
               <div key={i}>

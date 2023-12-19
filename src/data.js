@@ -70,6 +70,7 @@ const gamesList = [
     {
         name: "BlastFort",
         description: "A free-to-play multiplayer side-scrolling shooter",
+        full: "BlastFort is a free-to-play multiplayer side-scrolling shooter! With a wide selection of weapons and unique special items, gameplay is fun for everyone! Fight along side your friends in Classic Mode, challenge your friends to a duel in Arena Mode, or play a unique game set with Soccer Mode! Use your weapons and special items to get as far as possible before AI takes over!",
         img: "display_bf.webp",
         url: "blastfort",
         platforms: [{
@@ -129,6 +130,7 @@ const gamesList = [
     {
         name: "Holy Roller",
         description: "A stupid game made by a stupid person.",
+        full: "Roll a random number from 1 to 1000. Roll a 1000 to win. There are 1000 achievements. Get all of them for 100% completion. Speed run the game and try to beat your friends.",
         img: "display_holyroller.webp",
         url: "holy-roller",
         platforms: [{
@@ -153,6 +155,7 @@ const gamesList = [
     {
         name: "Wordt",
         description: "A word-guessing puzzle game, where you get 6 tries to correctly guess the 5 letter word",
+        full: "Wordt is a word-guessing puzzle game, where you get 6 tries to correctly guess the 5 letter word! A new word is released every hour, for you to guess!",
         img: "display_wordt.webp",
         url: "wordt",
         platforms: [{
@@ -177,6 +180,7 @@ const gamesList = [
     {
         name: "Tulaan",
         description: "Conquer Eurasia and rule the world in the late Medieval Era as the Mongols, Nizaris, Seljuqs, Abbasids, or Crusaders.",
+        full: "A board-game style war and strategy game. Based on 10-14th century interactions between Mongols, Nizaris, Seljuqs, Abbasids, and Crusaders.",
         img: "display_tulaan.webp",
         url: "tulaan",
         platforms: [{
@@ -191,6 +195,7 @@ const gamesList = [
     {
         name: "The Main in The Chair",
         description: "Give directions to your field agents to infiltrate enemies. Ensure mission success.",
+        full: "You take the position of the man in the chair. You are responsible for watching over your spies to make sure that the mission succeeds (be it stealing the intelligence or taking the black money or killing all the enemies). You can only control one of your spies at a time and the spies may get bored if you don’t command them which will cause them to start doing things on their own, or they may get too fed up with your commands which will cause them to rebel. Keep your men calm and tell them to interact with their surroundings to complete the objective.",
         img: "display_tmic.webp",
         url: "tmic",
         platforms: [{
@@ -206,6 +211,7 @@ const gamesList = [
     {
         name: "The Twins",
         description: "In the midst of a war, two brothers with special abilities to join together into one or to share resources are recruited to get vital intel from the enemy.",
+        full: "In the midst of a war, two brothers with special abilities to join together into one or to share resources are recruited to get vital intel from the enemy. Solve challenges with a connection with another character.",
         img: "display_twins.webp",
         url: "thetwins",
         platforms: [{
@@ -221,6 +227,7 @@ const gamesList = [
     {
         name: "SideQuest",
         description: "A great hero and adventure travels across the kingdom in hopes of completing his ultimate quest... ...but that's not you.",
+        full: "A great hero and adventure travels across the kingdom in hopes of completing his ultimate quest... ...but that's not you. You're a humble NPC quest giver. But you had one side mission to give. And the player did that. Time to cause chaos so the player has more stuff to do.",
         img: "display_sidequest.webp",
         url: "sidequest",
         platforms: [{
