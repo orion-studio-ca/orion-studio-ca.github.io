@@ -12,7 +12,7 @@ const Shop = () => (
         <div className="flex justify-center mt-[1rem] sm:mt-[2rem]" >
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-[90%]" >
           {data.shopItems.map((item, i) => 
-            <ShopItemDisplay key={i} img={`/shop/${item.img}`} title={item.name} urlTo={item.url} price={`${item.unit}${item.price.toFixed(2)}${item.max ? ` - ${item.unit}${item.max.toFixed(2)}` : "" }`} />
+            <ShopItemDisplay key={i} img={`shop/${item.img}`} title={item.name} urlTo={item.url} price={`${item.unit}${item.price.toFixed(2)}${item.max ? ` - ${item.unit}${item.max.toFixed(2)}` : "" }`} />
           )}
         </div>
         </div>
