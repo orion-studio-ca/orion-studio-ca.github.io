@@ -1,4 +1,4 @@
-const versionId = "1.2.0"
+const versionId = "1.2.1"
 const copyright = "Copyright Faraaz Jan, 2023. All rights reserved."
 
 const pages = [

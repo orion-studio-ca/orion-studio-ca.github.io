@@ -10,8 +10,10 @@ const ListPlatforms = (props) => {
 
   return(
     <div className="justify-left ml-[1rem] mb-[1rem] flex" >
-      {curGame.platforms.map((platform, i) =>
-        <img key={i} src={`/storeicons/${data.platformList[platform.num].img}`} className="w-[2.5rem] max-w-[12%]" />
+      {curGame.platforms
+        .filter((platform) => curGame.platforms.find(p => p.num === platform.num) === platform)
+        .map((platform, i) =>
+        <a className="w-[2.5rem] max-w-[12%]" href={platform.url} target="_blank" ><img key={i} src={`/storeicons/${data.platformList[platform.num].img}`} className="active:opacity-80 hover:opacity-80 transition-opacity" /></a>
       )}
     </div>
   )
