@@ -12,9 +12,13 @@ import Navbar from './components/Navbar.jsx'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
+import data from './data.js'
 
-const Test = (props) => {
-  return <p className="text-white text-4xl" >Testing</p>
+const Version = () => {
+  const date = new Date
+  return (
+    <p className="text-white text-xl" >Version number {data.versionId}<br/>{date.toUTCString()}<br/>{data.copyright}</p>
+  )
 }
 
 
@@ -82,6 +86,10 @@ const router = createBrowserRouter([
       },
     ]
   },
+  {
+    path: "/webinfo",
+    element: <Version />,
+  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

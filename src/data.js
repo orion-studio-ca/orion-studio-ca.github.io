@@ -1,3 +1,6 @@
+const versionId = "1.2.0"
+const copyright = "Copyright Faraaz Jan, 2023. All rights reserved."
+
 const pages = [
     {
       name: "Home",
@@ -358,4 +361,4 @@ const servedMessages = [
     ]
 ]
 
-export default {gamesList, platformList, socials, servedMessages, pages, shopItems}
+export default {gamesList, platformList, socials, servedMessages, pages, shopItems, versionId, copyright}
