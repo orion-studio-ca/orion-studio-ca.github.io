@@ -5,7 +5,6 @@ import Message from './components/Message.jsx'
 import GameInfo from './components/GameInfo.jsx'
 import About from './About.jsx'
 import Publishing from './Publishing.jsx'
-import Shop from './Shop.jsx'
 
 import Navbar from './components/Navbar.jsx'
 
@@ -59,10 +58,6 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <About />
-      },
-      {
-        path: "store",
-        element: <Shop />
       },
       {
         path: "blastfort",

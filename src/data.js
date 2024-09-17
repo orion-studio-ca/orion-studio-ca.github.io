@@ -13,60 +13,7 @@ const pages = [
     {
       name: "About",
       url: "/about"
-    },
-    {
-      name: "Shop",
-      url: "/store"
     }
-]
-
-const shopItems = [
-    {
-        name: "Orion Studios Cap",
-        img: "hat_1.jpeg",
-        url: "https://square.link/u/rIAufY33",
-        price: 25.99,
-        unit: "$"
-    },
-    {
-        name: "Orion Studios Cap (Light)",
-        img: "hat_2.jpeg",
-        url: "https://square.link/u/7CgTBBxn",
-        price: 25.99,
-        unit: "$"
-    },
-    {
-        name: "Orion Studios Polo Shirt",
-        img: "polo_1.jpeg",
-        url: "https://square.link/u/T9oIjVBZ",
-        price: 30.00,
-        max: 31.50,
-        unit: "$"
-    },
-    {
-        name: "Orion Studios Polo Shirt (Light)",
-        img: "polo_2.jpeg",
-        url: "https://square.link/u/TLrj8FD6",
-        price: 30.00,
-        max: 31.50,
-        unit: "$"
-    },
-    {
-        name: "Orion Studios T-Shirt",
-        img: "shirt_1.jpeg",
-        url: "https://square.link/u/dfAlqd2i",
-        price: 17.00,
-        max: 24.00,
-        unit: "$"
-    },
-    {
-        name: "Orion Studios T-Shirt (Light)",
-        img: "shirt_2.jpeg",
-        url: "https://square.link/u/cAM6lX5G",
-        price: 17.00,
-        max: 24.00,
-        unit: "$"
-    },
 ]
 
 const gamesList = [
@@ -153,6 +100,23 @@ const gamesList = [
             "gallery/holy-roller_1.jpg",
             "gallery/holy-roller_2.jpg",
             "gallery/holy-roller_3.jpg",
+        ]
+    },
+    {
+        name: "Company, Inc.",
+        description: "As the CEO of a company, you need to make cuts. Too bad your employees won't go out without a fight. Scale the company's workforce to make sure you don't get fired!",
+        full: "As the CEO of a company, you need to make cuts. Too bad your employees won't go out without a fight. Scale the company's workforce to make sure you don't get fired!",
+        img: "display_companyinc.webp",
+        url: "companyinc",
+        platforms: [{
+            num: 5, //itch.io
+            url: "https://orion-studios.itch.io/company-inc"
+        }],
+        screenshots: [
+            "gallery/companyinc_1.jpg",
+            "gallery/companyinc_2.jpg",
+            "gallery/companyinc_3.jpg",
+            "gallery/companyinc_4.jpg",
         ]
     },
     {
@@ -361,4 +325,4 @@ const servedMessages = [
     ]
 ]
 
-export default {gamesList, platformList, socials, servedMessages, pages, shopItems, versionId, copyright}
+export default {gamesList, platformList, socials, servedMessages, pages, versionId, copyright}
